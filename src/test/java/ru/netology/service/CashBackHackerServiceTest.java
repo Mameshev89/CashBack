@@ -13,28 +13,28 @@ public class CashBackHackerServiceTest {
     void shouldCalculate() {
         int actual = run.remain(800);
         int expected = 200;
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(actual, expected);
     }
 
     @Test
     void shouldCalculate2() {
         int actual = run.remain(1000);
         int expected = 0;
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(actual, expected);
     }
 
     @Test
     void shouldCalculate3() {
         int actual = run.remain(700);
         int expected = 300;
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(actual,expected);
     }
 
     @Test
     void shouldCalculate4() {
         int actual = run.remain(100);
         int expected = 900;
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(actual, expected);
     }
 
 }
